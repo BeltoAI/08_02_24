@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belto Cloud - Host Your Language Models with Ease</title>
+    <meta name="description" content="Discover Belto Cloud, your partner in hosting and managing language models with top-notch AI infrastructure. Empower your business with AI.">
+    <meta name="keywords" content="AI hosting, language model hosting, AI infrastructure, cloud AI, Belto Cloud solutions">
+    <meta name="author" content="Belto Cloud">
+    <meta property="og:title" content="Belto Cloud - Leading AI Hosting Solutions">
+    <meta property="og:description" content="Belto Cloud offers reliable AI hosting solutions to manage and deploy your language models efficiently. Learn more about our services.">
+    <meta property="og:image" content="https://belto.site/static_resources/landing_page_images_v1/Container.png">
+    <meta property="og:url" content="https://www.beltocloud.world">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Belto Cloud">
+    <meta property="og:updated_time" content="2024-07-11T12:00:00+00:00">
+    <meta property="og:locale" content="en_US">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://belto.site/static_resources/landing_page_images_v1/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://belto.site/static_resources/landing_page_images_v1/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://belto.site/static_resources/landing_page_images_v1/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://belto.site/static_resources/landing_page_images_v1/favicons/favicon-16x16.png">
+    <link rel="manifest" href="https://cors-anywhere.herokuapp.com/https://belto.site/static_resources/landing_page_images_v1/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="https://belto.site/static_resources/landing_page_images_v1/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#000000">
+    <link rel="browserconfig" href="https://belto.site/static_resources/landing_page_images_v1/favicons/browserconfig.xml">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@BeltoCloud">
+    <meta name="twitter:creator" content="@BeltoCloud">
+    <meta name="robots" content="index, follow">
+    <meta name="rating" content="general">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Belto Cloud",
+      "url": "https://www.beltocloud.world",
+      "logo": "https://www.belto.site/static_resources/landing_page_images_v1/Container.png",
+      "sameAs": [
+        "https://www.facebook.com/belto.cloud",
+        "https://www.twitter.com/belto.cloud",
+        "https://www.linkedin.com/company/belto.cloud",
+        "https://www.instagram.com/belto.cloud",
+        "https://www.tiktok.com/@belto.cloud?lang=en"
+      ]
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://belto.site/static_resources/landing_page_css_v1/style.css">
+    
+    <style>
+        /* Custom Styles */
+        .collapse {
+            transition: height 0.35s ease;
+        }
+
+        .collapsing {
+            height: 0;
+            overflow: hidden;
+            transition: height 0.35s ease;
+        }
+
+        .collapse.show {
+            height: auto;
+        }
+
+        .dropdown-menu {
+            background-color: #000;
+            border: none;
+        }
+
+        .dropdown-item {
+            color: #fff;
+        }
+
+        .dropdown-item:hover {
+            background-color: #ffd700;
+        }
+
+        .responsive-iframe {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
+
+        .flip-card {
+            background-color: transparent;
+            width: 100%;
+            height: 300px;
+            perspective: 1000px;
+            margin-bottom: 20px;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-card:hover .flip-card-inner,
+        .flip-card:focus .flip-card-inner,
+        .flip-card:active .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 10px;
+        }
+
+        .flip-card-back {
+            transform: rotateY(180deg);
+        }
+
+        #preloader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            z-index: 9999;
+        }
+
+        nav {
+            z-index: 9998;
+        }
+
+        .feature-card {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            color: #fff;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature-card svg {
+            width: 50px;
+            height: 50px;
+            color: #ffd700;
+        }
+
+        .feature-card h3 {
+            margin-top: 15px;
+            font-size: 1.5rem;
+            color: #ffd700;
+        }
+
+        .feature-card p {
+            color: #ccc;
+        }
+
+        .feature-box {
+            background: #000000;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature-box h3 {
+            color: #ffd700;
+            margin-bottom: 15px;
+        }
+
+        .feature-box p {
+            color: #ccc;
+        }
+
+        .new-section {
+            background: #222;
+            padding: 50px 0;
+            color: #fff;
+        }
+
+        .new-section .feature-box {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .new-section h2 {
+            color: #ffd700;
+            margin-bottom: 50px;
+        }
+
+        .new-section .feature-box h3 {
+            color: #ffd700;
+        }
+
+        .new-section .feature-box p {
+            margin: 5px 0;
+        }
+
+        .new-section .price {
+            font-size: 1.2rem;
+            color: #fff;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Pricing Section Styles */
+        .package {
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            background: #fff;
+            color: #000;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .package:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .package .price {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .package .d_icon {
+            font-size: 1.5rem;
+            color: #ffd700;
+            margin-right: 5px;
+        }
+
+        .package .time {
+            margin-left: 5px;
+            color: #000; /* Changed to black */
+        }
+
+        .package_points {
+            margin-top: 20px;
+        }
+
+        .package_points .point {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .package_points .icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .package_points .icon img {
+            width: 100%;
+            height: auto;
+        }
+
+        .package_points .text h5 {
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+            color: #ffd700;
+        }
+
+        .package_points .text p {
+            margin: 0;
+            color: #777;
+        }
+
+        .most_popular_badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: #ffcc00;
+            color: #fff;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .carousel-control-prev, .carousel-control-next {
+            width: 5%;
+        }
+
+        .carousel .carousel-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .carousel .carousel-item .row {
+            width: 100%;
+        }
+
+        .carousel .carousel-inner {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .carousel .carousel-item {
+            flex: 0 0 100%;
+        }
+
+        .package .btn_demo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .package .btn_demo svg {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="preloader-logo">
+            <img src="https://belto.site/static_resources/landing_page_images_v1/BELTO LOGO FINAL.png" alt="Belto Logo">
+        </div>
+    </div>
+
+    <style>
+        #preloader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: #000; /* Change background to black */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .preloader-logo img {
+            width: 100px; /* Adjust the size as needed */
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate3d(1, 1, 1, 0deg);
+            }
+
+            100% {
+                transform: rotate3d(1, 1, 1, 360deg);
+            }
+        }
+    </style>
+    <!-- banner starts -->
+    <section id="banner" data-aos="fade-up">
+        <div class="container text-center">
+            <h1>Meet the Belto LM Cloud <br> our <span class="text_yellow">B</span>elto Consultancy.</h1>
+        </div>
+    </section>
+    <!-- banner ends -->
+
+   <!-- AI Consulting Section Starts -->
+<section id="ai-consulting" class="new-section" style="background-color: #000; padding: 120px 0;" data-aos="fade-up">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="text_yellow">Our AI Consulting Services</h2>
+            <p class="text-white-50">Leverage our expertise to transform your business with cutting-edge AI solutions.</p>
+        </div>
+
+        <div class="row text-center mb-5">
+    <div class="col-md-4 mb-4">
+        <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px;">
+            <i class="fas fa-chart-line" style="font-size: 50px;"></i>
+            <h3>AI Strategy</h3>
+            <p>Develop a comprehensive AI strategy tailored to your business needs.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px;">
+            <i class="fas fa-microchip" style="font-size: 50px;"></i>
+            <h3>Model Development</h3>
+            <p>Build custom AI models to solve specific business problems and improve efficiency.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px;">
+            <i class="fas fa-plug" style="font-size: 50px;"></i>
+            <h3>AI Integration</h3>
+            <p>Seamlessly integrate AI solutions into your existing systems and workflows.</p>
+        </div>
+    </div>
+</div>
+
+<!-- FontAwesome CSS link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <div class="row mb-5">
+            <div class="col-md-6 mb-4">
+                <div class="feature-card" style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; text-align: left;">
+                    <h3 style="color: #ffd700;">Innovation Workshops</h3>
+                    <p style="color: #fff;">Engage in interactive workshops to foster innovation and develop AI-driven solutions. Our workshops are designed to inspire and educate your team.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-card" style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; text-align: left;">
+                    <h3 style="color: #ffd700;">Team Training</h3>
+                    <p style="color: #fff;">Equip your team with the skills needed to leverage AI through comprehensive training sessions. Our training programs are tailored to your specific needs.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="row text-center mb-5">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px;">
+                        <i class="fas fa-cogs" style="font-size: 50px;"></i>
+                        <h3>Tech Optimization</h3>
+                        <p>Optimize your technological infrastructure for maximum efficiency and performance.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px;">
+                        <i class="fas fa-lightbulb" style="font-size: 50px;"></i>
+                        <h3>Innovation Lab</h3>
+                        <p>Explore innovative solutions to tackle your toughest business challenges.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px;">
+                        <i class="fas fa-cloud" style="font-size: 50px;"></i>
+                        <h3>Cloud Solutions</h3>
+                        <p>Leverage cloud technology to enhance scalability and flexibility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="col-md-6 mb-4">
+                <div class="feature-card" style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; text-align: left;">
+                    <h3 style="color: #ffd700;">Custom Software Development</h3>
+                    <p style="color: #fff;">Design and develop custom software solutions to meet your specific business requirements. Our experts deliver high-quality, scalable software.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-card" style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; text-align: left;">
+                    <h3 style="color: #ffd700;">AI Research</h3>
+                    <p style="color: #fff;">Stay ahead of the curve with our AI research services. We conduct cutting-edge research to help you innovate and maintain a competitive edge.</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <a href="https://calendly.com/beltoworld" class="btn btn-primary" style="background-color: #ffd700; border: none; padding: 15px 30px; font-size: 1.2rem; color: #000; border-radius: 50px; transition: background-color 0.3s ease;">
+                Schedule a Free 30-Minute Consultation
+            </a>
+        </div>
+    </div>
+</section>
+<!-- AI Consulting Section Ends -->
+
+<style>
+    .btn-primary:hover {
+        background-color: #e6b800;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+</style>
+
+
+<style>
+    .btn-primary:hover {
+        background-color: #e6b800;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+</style>
+
+
+<style>
+    .btn-primary:hover {
+        background-color: #e6b800;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+</style>
+
+
+
+
+
+
+<!-- Features Section Starts -->
+
+<section id="banner" data-aos="fade-up">
+        <div class="container text-center">
+            <h1>Scalable Cloud Solutions. <br> For Everyone. </h1>
+        </div>
+    </section>
+
+<section id="features" data-aos="fade-up" style="margin-top: 80px;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <a href="/company/waitlist" class="btn_try">Join our Waitlist!</a>
+            <p class="d_p">
+                <span class="text_yellow">Belto</span> Cloud is specifically designed for AI deployment and is only available in English.
+            </p>
+        </div>
+
+        <div class="row text-center">
+    <div class="col-md-4 mb-4">
+        <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px; height: 250px;">
+            <i class="fas fa-server" style="font-size: 50px;"></i>
+            <h3>Scalable Infrastructure</h3>
+            <p>Easily scale your AI models to meet growing demands with our robust cloud infrastructure.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px; height: 250px;">
+            <i class="fas fa-lock" style="font-size: 50px;"></i>
+            <h3>Secure Hosting</h3>
+            <p>Protect your data with industry-leading security measures and encryption protocols.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px; height: 250px;">
+            <i class="fas fa-shield-alt" style="font-size: 50px;"></i>
+            <h3>High Availability</h3>
+            <p>Ensure your AI applications are always available with our high-availability architecture.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px; height: 250px;">
+            <i class="fas fa-hdd" style="font-size: 50px;"></i>
+            <h3>Dedicated Servers</h3>
+            <p>Get your own dedicated servers to host your language models for optimal performance.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px; height: 250px;">
+            <i class="fas fa-layer-group" style="font-size: 50px;"></i>
+            <h3>LMs, NLPs and Computer Vision</h3>
+            <p>Access advanced LMs, NLPs and Computer Vision capabilities to enhance your AI applications.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="feature-card" style="padding: 20px; border: 1px solid #ffd700; border-radius: 10px; height: 250px;">
+            <i class="fas fa-desktop" style="font-size: 50px;"></i>
+            <h3>Remote Desktop Access</h3>
+            <p>Manage and interact with your hosted models through a convenient remote desktop setup.</p>
+        </div>
+    </div>
+</div>
+
+<!-- FontAwesome CSS link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    </div>
+</section>
+<!-- Features Section Ends -->
+
+
+
+
+
+
+    <!-- Pricing Section -->
+<section id="discover" data-aos="fade-up">
+    <div id="pricing">
+        <div class="container">
+
+            <br>
+            <br>
+
+            <div class="selection">
+                <div class="packages active">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-12 mb-4">
+                            <div class="package">
+                                <p class="p_t">Basic Cloud Plan</p>
+                                <div class="price d-flex">
+                                    <h4>4.99 </h4>
+                                </div>
+                                <a href="/company/waitlist" class="btn_demo yellow_btn">
+                                    Join our Waitlist
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                                    </svg>
+                                </a>
+                                <div class="package_points">
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">RTX 3060 to 4080</span></h5>
+                                            <p>
+                                                Efficient parallel processing with up to 9728 CUDA Cores.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Scalability</span></h5>
+                                            <p>
+                                                Scale your resources as your needs grow.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Remote Desktop Access</span></h5>
+                                            <p>
+                                                Access your cloud resources from anywhere.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Unlimited Storage</span></h5>
+                                            <p>
+                                                Never worry about running out of space.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 mb-4">
+                            <div class="package most_chosen" style="position: relative;">
+                                <div class="most_popular_badge">Most Popular</div>
+                                <p class="p_t">Standard Cloud Plan</p>
+                                <div class="price d-flex">
+                                    <h4>7.99</h4>
+                                </div>
+                                <a href="/company/waitlist" class="btn_demo yellow_btn">
+                                    Join our Waitlist
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                                    </svg>
+                                </a>
+                                <div class="package_points">
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">RTX 4090</span></h5>
+                                            <p>
+                                                16384 CUDA Cores for unmatched performance.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Unlimited Scalability</span></h5>
+                                            <p>
+                                                Perfect for large-scale AI deployments.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Remote Desktop Access</span></h5>
+                                            <p>
+                                                Manage your cloud environment from anywhere.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Unlimited Storage</span></h5>
+                                            <p>
+                                                Never worry about running out of space.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">AI Deployment</span></h5>
+                                            <p>
+                                                Optimized for deploying large language models.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 mb-4">
+                            <div class="package">
+                                <p class="p_t">Advanced Cloud Plan</p>
+                                <div class="price d-flex">
+                                    <h4>12.99</h4>
+                                </div>
+                                <a href="/company/waitlist" class="btn_demo yellow_btn">
+                                    Join our Waitlist
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                                    </svg>
+                                </a>
+                                <div class="package_points">
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">RTX 4080</span></h5>
+                                            <p>
+                                                Powerful performance with high efficiency.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Advanced Scalability</span></h5>
+                                            <p>
+                                                Customize and scale your resources dynamically.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Remote Desktop Access</span></h5>
+                                            <p>
+                                                Manage your cloud environment from anywhere.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Unlimited Storage</span></h5>
+                                            <p>
+                                                Never worry about running out of space.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">AI Deployment</span></h5>
+                                            <p>
+                                                Optimized for deploying large language models.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Priority Support</span></h5>
+                                            <p>
+                                                Get priority support and fast response times.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 mb-4">
+                            <div class="package">
+                                <p class="p_t">Pay as you go</p>
+                                <div class="price d-flex">
+                                    <h4>0.18</h4>
+                                </div>
+                                <a href="/company/waitlist" class="btn_demo yellow_btn">
+                                    Join our Waitlist
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                                    </svg>
+                                </a>
+                                <div class="package_points">
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Dual RTX 4090</span></h5>
+                                            <p>
+                                                For the highest performance demands.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Advanced Scalability</span></h5>
+                                            <p>
+                                                Customize and scale your resources dynamically.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Remote Desktop Access</span></h5>
+                                            <p>
+                                                Manage your cloud environment from anywhere.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Unlimited Storage</span></h5>
+                                            <p>
+                                                Never worry about running out of space.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">AI Deployment</span></h5>
+                                            <p>
+                                                Optimized for deploying large language models.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="point d-flex">
+                                        <div class="icon">
+                                            <img src="https://belto.site/static_resources/landing_page_images_v1/tick.png" alt="Tick">
+                                        </div>
+                                        <div class="text">
+                                            <h5><span class="text_yellow">Priority Support</span></h5>
+                                            <p>
+                                                Get priority support and fast response times.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Starts -->
+<footer>
+    <div class="container">
+        <div class="footer_top">
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <a href="#">
+                        <div class="brand_r">
+                            <img class="img-fluid" src="https://belto.site/static_resources/landing_page_images_v1/Container.png" alt="Belto Logo">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Products</h5>
+                    <a href="/products/doc">Belto Doc</a>
+                    <a href="/products/form">Belto Form</a>
+                    <a href="/products/esg">Belto ESG</a>
+                    <a href="/company/comingsoon">Belto CRM</a>
+                    <a href="/company/comingsoon">Belto ERP</a>
+                    <a href="/company/comingsoon">Belto BCS</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Pricing</h5>
+                    <a href="/pricing/pricingforenterprises">Enterprise</a>
+                    <a href="/pricing/pricingforeveryone">For Everyone</a>
+                    <a href="/products/request">Request Demo</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Company</h5>
+                    <a href="/company/aboutus">About Us</a>
+                    <a href="/company/comingsoon">Careers</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Feedbacks</h5>
+                    <a href="/company/comingsoon">Partnerships</a>
+                    <a href="/company/comingsoon">Sales</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Miscellaneous</h5>
+                    <a href="miscellaneous/cloud.html">AI Consulting</a>
+                    <a href="/company/comingsoon">Computer Vision</a>
+                    <a href="/company/comingsoon">LMs</a>
+                    <a href="/company/comingsoon">Join our Team</a>
+                    <a href="/miscellaneous/terms">Terms, Services & Privacy</a>
+                    <a href="/miscellaneous/contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_btm">
+            <div class="row">
+                <div class="col-md-7 col-12">
+                    <p><span class="text_yellow">Belto</span> Inc. © 2024.<br>All Rights Reserved</p>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div class="socials">
+                        <a href="https://twitter.com/BeltoInc" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.039 0 9.325-5.003 9.325-9.325 0-.14 0-.281-.01-.421A6.651 6.651 0 0 0 16 4.29a6.545 6.545 0 0 1-1.89.518A3.283 3.283 0 0 0 15.556 3a6.56 6.56 0 0 1-2.087.797A3.272 3.272 0 0 0 7.88 7.6a9.272 9.272 0 0 1-6.73-3.4 3.274 3.274 0 0 0 1.013 4.376A3.273 3.273 0 0 1 .64 8.65v.041a3.273 3.273 0 0 0 2.631 3.209A3.28 3.28 0 0 1 .78 11.9a3.274 3.274 0 0 0 3.062 2.279A6.561 6.561 0 0 1 1 14.82a6.7 6.7 0 0 1-.61-.039A9.27 9.27 0 0 0 5.026 15z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/belto.news/" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/belto/" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.51 0 1.146 0h13.708C15.49 0 16 .513 16 1.146v13.708C16 15.49 15.49 16 14.854 16H1.146C.51 16 0 15.49 0 14.854V1.146zM5.208 14.854v-7.451H3.375v7.451h1.833zm-1.133-8.452c.608 0 1.097-.493 1.097-1.1s-.489-1.1-1.097-1.1c-.606 0-1.095.493-1.095 1.1s.489 1.1 1.095 1.1zm8.76 7.451v-4.15c0-.767-.014-1.488-.155-2.082-.167-.693-.434-1.306-1.013-1.87-.578-.565-1.277-.846-2.097-.846-1.448 0-2.722.828-3.175 2.034V6.35h-1.83c.023.506 0 7.451 0 7.451h1.833v-4.15c0-.918.174-1.593.672-2.16.503-.568 1.25-.891 2.055-.891 1.338 0 2.316.863 2.316 2.721v4.48h1.826z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/belto-inc" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0a8 8 0 0 0-2.55 15.588c.4.074.55-.174.55-.388v-1.444c-2.138.464-2.583-1.028-2.583-1.028-.351-.892-.854-1.13-.854-1.13-.698-.476.053-.467.053-.467.772.054 1.177.793 1.177.793.687 1.174 1.801.834 2.238.639.071-.497.269-.834.488-1.025-1.715-.195-3.515-.858-3.515-3.82 0-.845.303-1.536.794-2.078-.079-.195-.344-.976.075-2.037 0 0 .651-.208 2.135.793.621-.173 1.287-.259 1.947-.263.658.004 1.324.089 1.944.263 1.486-1.001 2.133-.793 2.133-.793.419 1.061.153 1.842.074 2.037.492.542.794 1.233.794 2.078 0 2.965-1.805 3.62-3.52 3.82.279.241.527.716.527 1.445v2.144c0 .216.148.464.55.388A8 8 0 0 0 8 0z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Ends -->
+
+ <!-- Scroll to Top -->
+ <a href="#" class="to_top"><i class="fa-solid fa-arrow-up"></i></a>
+
+ <!-- JavaScript -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+     $(document).ready(function () {
+         // Hide Preloader
+         $('#preloader').fadeOut('slow', function () {
+             $(this).remove();
+         });
+
+         // Navbar Package Toggle
+         $('.btn_select').click(function () {
+             $('.btn_select').removeClass('active');
+             $(this).addClass('active');
+             var package = $(this).data('package');
+             if (package === 'monthly') {
+                 $('.monthly_packages').addClass('active');
+                 $('.yearly_packages').removeClass('active');
+             } else {
+                 $('.monthly_packages').removeClass('active');
+                 $('.yearly_packages').addClass('active');
+             }
+         });
+
+         // Counter Animation
+         $('.count').each(function () {
+             var $this = $(this),
+                 countTo = $this.attr('data-target');
+             $({ countNum: $this.text() }).animate({
+                 countNum: countTo
+             },
+                 {
+                     duration: 2000,
+                     easing: 'swing',
+                     step: function () {
+                         $this.text(Math.floor(this.countNum));
+                     },
+                     complete: function () {
+                         $this.text(this.countNum);
+                     }
+                 });
+         });
+
+         AOS.init();
+     });
+ </script>
+</body>
+
+</html>
