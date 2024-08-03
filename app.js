@@ -297,7 +297,7 @@ app.post('/pricing/request/send', upload.single('data'), async (req, res) => {
  */
 function validateFileName(fileName) {
     // Define the allowed document types
-    const allowedExtensions = ['.pdf', '.doc', '.docx', '.xlsx', '.csv', '.txt'];
+    const allowedExtensions = ['.pdf', '.doc', '.docx', '.xlsx', '.csv', '.png', '.jpg', '.jpeg', '.txt'];
 
     // Check if the file name ends with one of the allowed extensions
     return allowedExtensions.some(extension => fileName.toLowerCase().endsWith(extension));
